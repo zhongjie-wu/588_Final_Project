@@ -10,13 +10,18 @@ To accurately replicate the experiment results, please follow these steps:
 
 3. **Install Dependencies**:
    - Ensure that the version of Python used is >= 3.7.1.
-   - Some Python packages are required for the experiment. Install them using pip:
+   - Some Python packages are required for the experiment. Install them using `pip`:
      ```
      pip install bardapi bert_score rouge openai
      ```
+   - `pip` will install the latest stable version of these packages. The versions for each package are also provided here:
+     - `bardapi`: v0.1.38
+     - `bert_score`: v0.3.13
+     - `rouge`: v1.0.1
+     - `openai`: v1.5.0
    - Ensure these packages are installed in your Python environment before running the experiment scripts.
 
-By following these steps, you should be able to recreate the experiment environment and reproduce the results as documented.
+By following these steps, you should be able to recreate the experiment environment and reproduce the results as documented. There isn't a specific computing specification required beyond having enough computational power to query the Bard and GPT-4V APIs and calculate the BERT and ROUGE scores.
 
 # Files and Folders
 A description of each file and folder is listed below:
